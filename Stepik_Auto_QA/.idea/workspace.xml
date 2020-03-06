@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a1d54ae-2d09-4c97-957e-849583319979" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.2_step13_Задание: оформляем тесты в стиле unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.2_step13_Задание: оформляем тесты в стиле unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_3_2_step13_REDO_Practice_03_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_3_2_step13_REDO_Practice_03_unittest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,7 @@
       <workItem from="1582921672101" duration="20437000" />
       <workItem from="1583186298060" duration="5623000" />
       <workItem from="1583429504235" duration="1301000" />
-      <workItem from="1583431289476" duration="10422000" />
+      <workItem from="1583431289476" duration="11425000" />
     </task>
     <task id="LOCAL-00001" summary="modified text.txt file">
       <created>1583429580427</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583474418746</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="3.2 step 13 practices">
+      <created>1583480559479</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583480559479</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,10 +265,10 @@
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state x="1506" y="348" key="#pytest_in_test_3_3_step03_PyTest.py/0.23.2502.1417@0.23.2502.1417" timestamp="1583188478525" />
-    <state x="762" y="123" key="CommitChangelistDialog2" timestamp="1583474418609">
+    <state x="762" y="123" key="CommitChangelistDialog2" timestamp="1583480559344">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
-    <state x="762" y="123" key="CommitChangelistDialog2/0.23.2502.1417@0.23.2502.1417" timestamp="1583474418609" />
+    <state x="762" y="123" key="CommitChangelistDialog2/0.23.2502.1417@0.23.2502.1417" timestamp="1583480559344" />
     <state x="491" y="313" key="FileChooserDialogImpl" timestamp="1583105327585">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
@@ -348,10 +355,10 @@
     </state>
     <state x="201" y="190" key="SettingsEditor/0.23.2480.1417@0.23.2480.1417" timestamp="1582186667690" />
     <state x="1333" y="635" key="SettingsEditor/0.23.2502.1417@0.23.2502.1417" timestamp="1583188456001" />
-    <state x="1061" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583474422833">
+    <state x="1061" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583480562355">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
-    <state x="1061" y="256" key="Vcs.Push.Dialog.v2/0.23.2502.1417@0.23.2502.1417" timestamp="1583474422833" />
+    <state x="1061" y="256" key="Vcs.Push.Dialog.v2/0.23.2502.1417@0.23.2502.1417" timestamp="1583480562355" />
     <state x="1169" y="242" width="949" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583432760842">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
