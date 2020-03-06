@@ -8,7 +8,7 @@ class TestRegistrationForm(unittest.TestCase):
 
     def fill_form(self, link):
         browser = self.driver
-        #browser.implicitly_wait(5)
+        browser.implicitly_wait(5)
         browser.get(link)
 
         browser.find_element_by_class_name("form-control.first").send_keys("Tanya")
