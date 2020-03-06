@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a1d54ae-2d09-4c97-957e-849583319979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_3.2_step13_REDO_Practice_02_unittest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_3.2_step13_REDOagain_оформляем тесты в стиле unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_3.2_step13_REDOagain_оформляем тесты в стиле unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_3.2_step13_REDO_Practice_01_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_3.2_step13_REDO_Practice_01_unittest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test_3.2_step13_REDO_Practice_01_unittest">
+  <component name="RunManager" selected="Python tests.pytest in test_3.2_step13_REDO_Practice_01_unittest.py">
     <configuration name="test_3.2_step13_REDO_Practice_01_unittest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Stepik Auto QA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_3.2_step13_REDO_Practice_01_unittest" />
         <item itemvalue="Python tests.pytest in test_3.2_step13_REDO_Practice_01_unittest.py" />
+        <item itemvalue="Python.test_3.2_step13_REDO_Practice_01_unittest" />
         <item itemvalue="Python.test_3_3_step03_PyTest" />
         <item itemvalue="Python tests.pytest for test_3_3_step03_PyTest_more_practice00.test_registration2" />
         <item itemvalue="Python tests.pytest in test_3_3_step03_PyTest_more_practice00.py" />
@@ -157,7 +157,7 @@
       <workItem from="1582921672101" duration="20437000" />
       <workItem from="1583186298060" duration="5623000" />
       <workItem from="1583429504235" duration="1301000" />
-      <workItem from="1583431289476" duration="1944000" />
+      <workItem from="1583431289476" duration="3757000" />
     </task>
     <task id="LOCAL-00001" summary="modified text.txt file">
       <created>1583429580427</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583432583611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed file unittest">
+      <created>1583433685654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583433685654</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modified text.txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified text.txt file" />
+    <MESSAGE value="Changed file unittest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed file unittest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1431" y="491" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583104921515">
@@ -196,22 +204,22 @@
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state x="1506" y="348" key="#pytest_in_test_3_3_step03_PyTest.py/0.23.2502.1417@0.23.2502.1417" timestamp="1583188478525" />
-    <state x="934" y="117" key="CommitChangelistDialog2" timestamp="1583432583478">
+    <state x="762" y="123" key="CommitChangelistDialog2" timestamp="1583433685530">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
-    <state x="934" y="117" key="CommitChangelistDialog2/0.23.2502.1417@0.23.2502.1417" timestamp="1583432583478" />
+    <state x="762" y="123" key="CommitChangelistDialog2/0.23.2502.1417@0.23.2502.1417" timestamp="1583433685530" />
     <state x="491" y="313" key="FileChooserDialogImpl" timestamp="1583105327585">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state x="487" y="313" key="FileChooserDialogImpl/0.23.2480.1417@0.23.2480.1417" timestamp="1582186659300" />
     <state x="491" y="313" key="FileChooserDialogImpl/0.23.2502.1417@0.23.2502.1417" timestamp="1583105327585" />
-    <state width="1390" height="463" key="GridCell.Tab.0.bottom" timestamp="1583433649631">
+    <state width="1390" height="231" key="GridCell.Tab.0.bottom" timestamp="1583468456186">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301354" />
     <state width="1358" height="289" key="GridCell.Tab.0.bottom/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958018" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458239" />
-    <state width="1390" height="463" key="GridCell.Tab.0.bottom/0.23.2502.1417@0.23.2502.1417" timestamp="1583433649631" />
+    <state width="1390" height="231" key="GridCell.Tab.0.bottom/0.23.2502.1417@0.23.2502.1417" timestamp="1583468456186" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583079" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2506.1417@0.23.2506.1417" timestamp="1582747595640" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2507.1417@0.23.2507.1417" timestamp="1582747620577" />
@@ -219,13 +227,13 @@
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2510.1417@0.23.2510.1417" timestamp="1582747786382" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833460" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879574" />
-    <state width="1390" height="463" key="GridCell.Tab.0.center" timestamp="1583433649630">
+    <state width="1390" height="231" key="GridCell.Tab.0.center" timestamp="1583468456186">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
     <state width="1358" height="289" key="GridCell.Tab.0.center/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958017" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458238" />
-    <state width="1390" height="463" key="GridCell.Tab.0.center/0.23.2502.1417@0.23.2502.1417" timestamp="1583433649630" />
+    <state width="1390" height="231" key="GridCell.Tab.0.center/0.23.2502.1417@0.23.2502.1417" timestamp="1583468456186" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2506.1417@0.23.2506.1417" timestamp="1582747595639" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2507.1417@0.23.2507.1417" timestamp="1582747620576" />
@@ -233,13 +241,13 @@
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2510.1417@0.23.2510.1417" timestamp="1582747786382" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833460" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879573" />
-    <state width="1390" height="463" key="GridCell.Tab.0.left" timestamp="1583433649630">
+    <state width="1390" height="231" key="GridCell.Tab.0.left" timestamp="1583468456186">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
     <state width="1358" height="289" key="GridCell.Tab.0.left/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958017" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458238" />
-    <state width="1390" height="463" key="GridCell.Tab.0.left/0.23.2502.1417@0.23.2502.1417" timestamp="1583433649630" />
+    <state width="1390" height="231" key="GridCell.Tab.0.left/0.23.2502.1417@0.23.2502.1417" timestamp="1583468456186" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2506.1417@0.23.2506.1417" timestamp="1582747595639" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2507.1417@0.23.2507.1417" timestamp="1582747620576" />
@@ -247,13 +255,13 @@
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2510.1417@0.23.2510.1417" timestamp="1582747786381" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833459" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879573" />
-    <state width="1390" height="463" key="GridCell.Tab.0.right" timestamp="1583433649631">
+    <state width="1390" height="231" key="GridCell.Tab.0.right" timestamp="1583468456186">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
     <state width="1358" height="289" key="GridCell.Tab.0.right/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958018" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458239" />
-    <state width="1390" height="463" key="GridCell.Tab.0.right/0.23.2502.1417@0.23.2502.1417" timestamp="1583433649631" />
+    <state width="1390" height="231" key="GridCell.Tab.0.right/0.23.2502.1417@0.23.2502.1417" timestamp="1583468456186" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2506.1417@0.23.2506.1417" timestamp="1582747595640" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2507.1417@0.23.2507.1417" timestamp="1582747620576" />
@@ -286,10 +294,10 @@
     </state>
     <state x="201" y="190" key="SettingsEditor/0.23.2480.1417@0.23.2480.1417" timestamp="1582186667690" />
     <state x="1333" y="635" key="SettingsEditor/0.23.2502.1417@0.23.2502.1417" timestamp="1583188456001" />
-    <state x="1061" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583432584963">
+    <state x="1061" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583433687763">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
-    <state x="1061" y="256" key="Vcs.Push.Dialog.v2/0.23.2502.1417@0.23.2502.1417" timestamp="1583432584963" />
+    <state x="1061" y="256" key="Vcs.Push.Dialog.v2/0.23.2502.1417@0.23.2502.1417" timestamp="1583433687763" />
     <state x="1169" y="242" width="949" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583432760842">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
@@ -355,7 +363,7 @@
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$3_2_step08.coverage" NAME="3.2_step08_Задание: составные сообщения об ошибках Coverage Results" MODIFIED="1583002265178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$3_3_step03____PyTest_.coverage" NAME="test_3_3_step03_Задание_вывод_PyTest Coverage Results" MODIFIED="1583105903081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$1_6_step11_REVIEW.coverage" NAME="1.6_step11_REVIEW Coverage Results" MODIFIED="1582923766956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_2_step13_REDOagain_____unittest_py.coverage" NAME="pytest in test_3.2_step13_REDOagain_оформляем тесты в стиле unittest.py Coverage Results" MODIFIED="1583433364708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_2_step13_REDOagain_____unittest_py.coverage" NAME="pytest in test_3.2_step13_REDO_Practice_01_unittest.py Coverage Results" MODIFIED="1583467524158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_6_step01_google_search.coverage" NAME="2.6_step01_google_search Coverage Results" MODIFIED="1582917786146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$Unittests_in_3_2_step13_py.coverage" NAME="Unittests in 3.2_step13.py Coverage Results" MODIFIED="1583044027952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$hello.coverage" NAME="hello Coverage Results" MODIFIED="1583011203986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

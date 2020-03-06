@@ -7,9 +7,6 @@ class TestForms(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Chrome()
 
-    def tearDown(self):
-        self.browser.quit()
-
     def fill_form(self, link):
         """ Вспомогательный метод для заполнения форм """
         input_fields = ('.first_block .first', '.first_block .second',
@@ -33,11 +30,12 @@ class TestForms(unittest.TestCase):
         registration_result = self.fill_form(link)
         self.assertEqual("Congratulations! You have successfully registered!", registration_result)
 
-    def test_registration_02(self):
+    def test_registration_02_bug(self):
         link = "http://suninjuly.github.io/registration2.html"
         registration_result = self.fill_form(link)
         self.assertEqual("Congratulations! You have successfully registered!", registration_result)
-
+    def tearDown(self):
+        self.browser.quit()
 
 if __name__ == "__main__":
     unittest.main()
