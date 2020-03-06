@@ -4,7 +4,7 @@ import time
 
 class TestRegistragionPage(unittest.TestCase):
 
-    def setUp(self) -> None:
+    def setUp(self):
         self.driver = webdriver.Chrome()
 
     def fillout_form(self, link):
@@ -12,10 +12,10 @@ class TestRegistragionPage(unittest.TestCase):
         browser.implicitly_wait(5)
         browser.get(link)
 
-        browser.find_element_by_class_name(".first_block .first").send_keys("Tanya")
-        browser.find_element_by_class_name(".first_block .second").send_keys("Khen")
+        browser.find_element_by_class_name("first_block.first").send_keys("Tanya")
+        browser.find_element_by_class_name("first_block.second").send_keys("Khen")
         browser.find_element_by_class_name("form-control.third").send_keys("t@gmail.com")
-
+        time.sleep(11)
         button = browser.find_element_by_class_name("btn.btn-default").click()
 
         time.sleep(1)
@@ -23,6 +23,8 @@ class TestRegistragionPage(unittest.TestCase):
         welcome_text_elem = browser.find_elements_by_tag_name("h1")
         welcome_text = welcome_text_elem[0].text
         return welcome_text
+
+        print (welcome_text)
 
      def test_registration_positive(self):
         link = "http://suninjuly.github.io/registration1.html"
@@ -36,8 +38,8 @@ class TestRegistragionPage(unittest.TestCase):
 
         self.assertEqual("Congratulations! You have successfully registered!", registration_result)
 
-
-    def tearDown(self) -> None:
+    def tearDown(self):
         self.driver.quit()
+
 if __name__ == "__main__":
     unittest.main()
