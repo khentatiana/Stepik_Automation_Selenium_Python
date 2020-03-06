@@ -17,7 +17,7 @@ class TestRegistrationForm(unittest.TestCase):
 
         button = browser.find_element_by_class_name("btn.btn-default").click()
 
-        # ждем загрузки страницы
+        # ждем загрузки страницы, not necessary because browser.implicitly_wait(5) in line 11 already exist
         time.sleep(1)
 
         welcome_text_elem = browser.find_elements_by_tag_name("h1")
@@ -34,7 +34,7 @@ class TestRegistrationForm(unittest.TestCase):
         link = "http://suninjuly.github.io/registration2.html"
         registration_result = self.fill_form(link)
 
-        self.assertEqual("Congratulations! You have successfully registered", registration_result)
+        self.assertEqual("Congratulations! You have successfully registered!", registration_result)
 
 
     def tearDown(self):

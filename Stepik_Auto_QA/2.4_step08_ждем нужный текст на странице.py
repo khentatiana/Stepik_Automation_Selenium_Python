@@ -13,6 +13,7 @@ def calc(x):
 
 
 browser = webdriver.Chrome()
+browser.implicitly_wait(5)
 browser.get(link)
 
 price = WebDriverWait(browser, 12).until(EC.text_to_be_present_in_element((By.ID, "price"), "100"))
@@ -31,5 +32,5 @@ answer.send_keys(y)
 submit = browser.find_element_by_id("solve")
 submit.click()
 
-time.sleep(30)
+time.sleep(5)
 browser.quit()
