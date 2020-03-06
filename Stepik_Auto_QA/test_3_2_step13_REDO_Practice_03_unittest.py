@@ -12,8 +12,8 @@ class TestRegistragionPage(unittest.TestCase):
         browser.implicitly_wait(5)
         browser.get(link)
 
-        browser.find_element_by_class_name("first_block.first").send_keys("Tanya")
-        browser.find_element_by_class_name("first_block.second").send_keys("Khen")
+        browser.find_element_by_class_name("form-control.first").send_keys("Tanya")
+        browser.find_element_by_class_name("form-control.second").send_keys("Khen")
         browser.find_element_by_class_name("form-control.third").send_keys("t@gmail.com")
         time.sleep(11)
         button = browser.find_element_by_class_name("btn.btn-default").click()
@@ -24,7 +24,7 @@ class TestRegistragionPage(unittest.TestCase):
         welcome_text = welcome_text_elem[0].text
         return welcome_text
 
-        print (welcome_text)
+        print(welcome_text)
 
      def test_registration_positive(self):
         link = "http://suninjuly.github.io/registration1.html"
