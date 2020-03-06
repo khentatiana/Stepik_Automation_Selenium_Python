@@ -8,23 +8,30 @@ class TestRegistrationForm(unittest.TestCase):
 
     def fill_form(self, link):
         browser = self.driver
-        browser.implicitly_wait(5)
+        #browser.implicitly_wait(5)
         browser.get(link)
 
         browser.find_element_by_class_name("form-control.first").send_keys("Tanya")
         browser.find_element_by_class_name("form-control.second").send_keys("Khen")
         browser.find_element_by_class_name("form-control.third").send_keys("tkhen@gmail.com")
 
-        time.sleep(5)
-
         button = browser.find_element_by_class_name("btn.btn-default").click()
 
+        welcome_text_elem = browser.find_elements_by_tag_name("h1")
+        welcome_text = welcome_text_elem[0].text
+        return welcome_text
 
     def test_registration(self):
         link = "http://suninjuly.github.io/registration1.html"
         registration_result = self.fill_form(link)
 
+        self.assertEqual("Congratulations! You have successfully registered!", registration_result)
 
+    def test_registration_failed(self):
+        link = "http://suninjuly.github.io/registration2.html"
+        registration_result = self.fill_form(link)
+
+        self.assertEqual("Congratulations! You have successfully registered", registration_result)
 
 
     def tearDown(self):
