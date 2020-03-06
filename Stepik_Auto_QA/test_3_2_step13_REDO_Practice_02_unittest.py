@@ -17,6 +17,9 @@ class TestRegistrationForm(unittest.TestCase):
 
         button = browser.find_element_by_class_name("btn.btn-default").click()
 
+        # ждем загрузки страницы
+        time.sleep(1)
+
         welcome_text_elem = browser.find_elements_by_tag_name("h1")
         welcome_text = welcome_text_elem[0].text
         return welcome_text
