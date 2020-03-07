@@ -1,7 +1,9 @@
 import time
 import pytest
+import unittest
 from selenium import webdriver
 
+class TestForm(unittest.TestCase):
 
     def setUp(self):
         self.browser = webdriver.Chrome()
@@ -32,7 +34,6 @@ from selenium import webdriver
 
     def test_registration1(self):
         form_url = 'http://suninjuly.github.io/registration1.html'
-        registration_result = self.fill_form(form_url)
         registration_result = self.fill_form(form_url)
         assert "Congratulations! You have successfully registered!" == registration_result
 

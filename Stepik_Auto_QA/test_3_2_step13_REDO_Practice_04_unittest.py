@@ -4,11 +4,10 @@ import time
 
 class TestRegistragionPage(unittest.TestCase):
 
-    def setUp(self):
-        self.driver = webdriver.Chrome()
+    def setUp():
+        browser = webdriver.Chrome()
 
-    def fill_form(self, link):
-        browser = self.driver
+    def fill_form(link):
         browser.implicitly_wait(5)
         browser.get(link)
 
@@ -22,20 +21,20 @@ class TestRegistragionPage(unittest.TestCase):
         welcome_text = welcome_text_elem[0].text
         return welcome_text
 
-    def test_registration_positive(self):
+    def test_registration_positive():
         link = "http://suninjuly.github.io/registration1.html"
-        registration_result = self.fill_form(link)
+        registration_result = fill_form(link)
 
-        self.assertEqual("Congratulations! You have successfully registered!", registration_result)
+        assertEqual("Congratulations! You have successfully registered!", registration_result)
 
-    def test_registration_negative(self):
+    def test_registration_negative():
         link = "http://suninjuly.github.io/registration2.html"
-        registration_result = self.fill_form(link)
+        registration_result = fill_form(link)
 
-        self.assertEqual("Congratulations! You have successfully registered!", registration_result)
+        assertEqual("Congratulations! You have successfully registered!", registration_result)
 
-    def tearDown(self):
-        self.driver.quit()
+    def tearDown():
+        browser.quit()
 
 if __name__ == "__main__":
     unittest.main()
