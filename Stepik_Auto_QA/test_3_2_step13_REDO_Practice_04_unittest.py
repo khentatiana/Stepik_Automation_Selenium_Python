@@ -2,6 +2,7 @@ from selenium import webdriver
 import unittest
 import time
 
+#unittest does not work without "self". I deleted from here all "self"
 class TestRegistragionPage(unittest.TestCase):
 
     def setUp():
