@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a1d54ae-2d09-4c97-957e-849583319979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_3_5_step06_PyTest_MARK_XFail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_3_6_step02_PyTest_Параметризация_тестов_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_3_6_step02_PyTest_Параметризация_тестов.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_3_6_step02_PyTest_Параметризация_тестов.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +38,8 @@
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="pytest for test_3_5_step05_PyTest_MARK_XFail.TestMainPage1.test_guest_should_see_search_button_on_the_main_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py">
+    <configuration name="pytest for test_3_4_step02_PyTest_FIXTURES_02.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Stepik Auto QA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +51,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_3_5_step05_PyTest_MARK_XFail.TestMainPage1.test_guest_should_see_search_button_on_the_main_page&quot;" />
+      <option name="_new_target" value="&quot;test_3_4_step02_PyTest_FIXTURES_02.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_3_5_step06_PyTest_MARK_XFail.test_not_succeed" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_3_4_step02_PyTest_FIXTURES_02.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Stepik Auto QA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,39 +67,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_3_5_step06_PyTest_MARK_XFail.test_not_succeed&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.TestBookPage.test_guest_can_see_book_price" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Stepik Auto QA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.TestBookPage.test_guest_can_see_book_price&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_3_5_step06_PyTest_MARK_XFail.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Stepik Auto QA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_3_5_step06_PyTest_MARK_XFail.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_3_4_step02_PyTest_FIXTURES_02.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -119,13 +87,45 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Stepik Auto QA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_3_6_step02_PyTest_Параметризация_тестов_01.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_3_6_step02_PyTest_Параметризация_тестов.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Stepik Auto QA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_3_6_step02_PyTest_Параметризация_тестов.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py" />
+        <item itemvalue="Python tests.pytest in test_3_6_step02_PyTest_Параметризация_тестов.py" />
+        <item itemvalue="Python tests.pytest in test_3_4_step02_PyTest_FIXTURES_02.py" />
+        <item itemvalue="Python tests.pytest for test_3_4_step02_PyTest_FIXTURES_02.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page" />
         <item itemvalue="Python tests.pytest in test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.py" />
-        <item itemvalue="Python tests.pytest for test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.TestBookPage.test_guest_can_see_book_price" />
-        <item itemvalue="Python tests.pytest in test_3_5_step06_PyTest_MARK_XFail.py" />
-        <item itemvalue="Python tests.pytest for test_3_5_step06_PyTest_MARK_XFail.test_not_succeed" />
-        <item itemvalue="Python tests.pytest for test_3_5_step05_PyTest_MARK_XFail.TestMainPage1.test_guest_should_see_search_button_on_the_main_page" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,8 @@
       <workItem from="1582921672101" duration="20437000" />
       <workItem from="1583186298060" duration="5623000" />
       <workItem from="1583429504235" duration="1301000" />
-      <workItem from="1583431289476" duration="36329000" />
+      <workItem from="1583431289476" duration="52267000" />
+      <workItem from="1584779211142" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="modified text.txt file">
       <created>1583429580427</created>
@@ -372,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583649404472</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add 3.6">
+      <created>1584233207162</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1584233207164</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +398,8 @@
     <MESSAGE value="3.5 MARK and SKIP" />
     <MESSAGE value="3.5 MARK.XFail" />
     <MESSAGE value="Refactored some files 3.5 MARK_XFail. Never use &quot;.&quot; in name of the file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored some files 3.5 MARK_XFail. Never use &quot;.&quot; in name of the file" />
+    <MESSAGE value="add 3.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 3.6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1431" y="491" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583104921515">
@@ -421,104 +430,108 @@
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state x="1576" y="585" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2502.1417@0.23.2502.1417" timestamp="1583574261652" />
-    <state x="762" y="123" key="CommitChangelistDialog2" timestamp="1583649404377">
+    <state x="762" y="123" key="CommitChangelistDialog2" timestamp="1584233207032">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
-    <state x="762" y="123" key="CommitChangelistDialog2/0.23.2502.1417@0.23.2502.1417" timestamp="1583649404377" />
+    <state x="762" y="123" key="CommitChangelistDialog2/0.23.2502.1417@0.23.2502.1417" timestamp="1584233207032" />
     <state x="491" y="313" key="FileChooserDialogImpl" timestamp="1583105327585">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state x="487" y="313" key="FileChooserDialogImpl/0.23.2480.1417@0.23.2480.1417" timestamp="1582186659300" />
     <state x="491" y="313" key="FileChooserDialogImpl/0.23.2502.1417@0.23.2502.1417" timestamp="1583105327585" />
-    <state width="1612" height="405" key="GridCell.Tab.0.bottom" timestamp="1583914047250">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state width="1612" height="460" key="GridCell.Tab.0.bottom" timestamp="1584561824246">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301354" />
     <state width="1358" height="289" key="GridCell.Tab.0.bottom/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958018" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458239" />
-    <state width="1612" height="405" key="GridCell.Tab.0.bottom/0.23.2502.1417@0.23.2502.1417" timestamp="1583914047250" />
+    <state width="1170" height="693" key="GridCell.Tab.0.bottom/0.23.2502.1417@0.23.2502.1417" timestamp="1584244698566" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583079" />
-    <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2506.1417@0.23.2506.1417" timestamp="1582747595640" />
-    <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2507.1417@0.23.2507.1417" timestamp="1582747620577" />
+    <state width="1612" height="460" key="GridCell.Tab.0.bottom/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824246" />
+    <state width="1410" height="693" key="GridCell.Tab.0.bottom/0.23.2507.1417@0.23.2507.1417" timestamp="1584322409779" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2508.1417@0.23.2508.1417" timestamp="1582747665900" />
-    <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2510.1417@0.23.2510.1417" timestamp="1582747786382" />
+    <state width="1410" height="693" key="GridCell.Tab.0.bottom/0.23.2510.1417@0.23.2510.1417" timestamp="1584322433379" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833460" />
     <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879574" />
-    <state width="1612" height="405" key="GridCell.Tab.0.center" timestamp="1583914047250">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state width="1612" height="460" key="GridCell.Tab.0.center" timestamp="1584561824246">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
     <state width="1358" height="289" key="GridCell.Tab.0.center/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958017" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458238" />
-    <state width="1612" height="405" key="GridCell.Tab.0.center/0.23.2502.1417@0.23.2502.1417" timestamp="1583914047250" />
+    <state width="1170" height="693" key="GridCell.Tab.0.center/0.23.2502.1417@0.23.2502.1417" timestamp="1584244698565" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
-    <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2506.1417@0.23.2506.1417" timestamp="1582747595639" />
-    <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2507.1417@0.23.2507.1417" timestamp="1582747620576" />
+    <state width="1612" height="460" key="GridCell.Tab.0.center/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824246" />
+    <state width="1410" height="693" key="GridCell.Tab.0.center/0.23.2507.1417@0.23.2507.1417" timestamp="1584322409779" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2508.1417@0.23.2508.1417" timestamp="1582747665900" />
-    <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2510.1417@0.23.2510.1417" timestamp="1582747786382" />
+    <state width="1410" height="693" key="GridCell.Tab.0.center/0.23.2510.1417@0.23.2510.1417" timestamp="1584322433379" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833460" />
     <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879573" />
-    <state width="1612" height="405" key="GridCell.Tab.0.left" timestamp="1583914047250">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state width="1612" height="460" key="GridCell.Tab.0.left" timestamp="1584561824244">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
     <state width="1358" height="289" key="GridCell.Tab.0.left/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958017" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458238" />
-    <state width="1612" height="405" key="GridCell.Tab.0.left/0.23.2502.1417@0.23.2502.1417" timestamp="1583914047250" />
+    <state width="1170" height="693" key="GridCell.Tab.0.left/0.23.2502.1417@0.23.2502.1417" timestamp="1584244698565" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
-    <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2506.1417@0.23.2506.1417" timestamp="1582747595639" />
-    <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2507.1417@0.23.2507.1417" timestamp="1582747620576" />
+    <state width="1612" height="460" key="GridCell.Tab.0.left/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824244" />
+    <state width="1410" height="693" key="GridCell.Tab.0.left/0.23.2507.1417@0.23.2507.1417" timestamp="1584322409778" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2508.1417@0.23.2508.1417" timestamp="1582747665899" />
-    <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2510.1417@0.23.2510.1417" timestamp="1582747786381" />
+    <state width="1410" height="693" key="GridCell.Tab.0.left/0.23.2510.1417@0.23.2510.1417" timestamp="1584322433378" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833459" />
     <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879573" />
-    <state width="1612" height="405" key="GridCell.Tab.0.right" timestamp="1583914047250">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state width="1612" height="460" key="GridCell.Tab.0.right" timestamp="1584561824246">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
     <state width="1358" height="289" key="GridCell.Tab.0.right/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958018" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458239" />
-    <state width="1612" height="405" key="GridCell.Tab.0.right/0.23.2502.1417@0.23.2502.1417" timestamp="1583914047250" />
+    <state width="1170" height="693" key="GridCell.Tab.0.right/0.23.2502.1417@0.23.2502.1417" timestamp="1584244698565" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
-    <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2506.1417@0.23.2506.1417" timestamp="1582747595640" />
-    <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2507.1417@0.23.2507.1417" timestamp="1582747620576" />
+    <state width="1612" height="460" key="GridCell.Tab.0.right/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824246" />
+    <state width="1410" height="693" key="GridCell.Tab.0.right/0.23.2507.1417@0.23.2507.1417" timestamp="1584322409779" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2508.1417@0.23.2508.1417" timestamp="1582747665900" />
-    <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2510.1417@0.23.2510.1417" timestamp="1582747786382" />
+    <state width="1410" height="693" key="GridCell.Tab.0.right/0.23.2510.1417@0.23.2510.1417" timestamp="1584322433379" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833460" />
     <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879573" />
-    <state width="1390" height="473" key="GridCell.Tab.1.bottom" timestamp="1583569287290">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state width="1612" height="460" key="GridCell.Tab.1.bottom" timestamp="1584561824247">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301306" />
-    <state width="1390" height="473" key="GridCell.Tab.1.bottom/0.23.2502.1417@0.23.2502.1417" timestamp="1583569287290" />
-    <state width="1390" height="473" key="GridCell.Tab.1.center" timestamp="1583569287290">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state width="1612" height="460" key="GridCell.Tab.1.bottom/0.23.2502.1417@0.23.2502.1417" timestamp="1584233611091" />
+    <state width="1612" height="460" key="GridCell.Tab.1.bottom/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824247" />
+    <state width="1612" height="460" key="GridCell.Tab.1.center" timestamp="1584561824247">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301305" />
-    <state width="1390" height="473" key="GridCell.Tab.1.center/0.23.2502.1417@0.23.2502.1417" timestamp="1583569287290" />
-    <state width="1390" height="473" key="GridCell.Tab.1.left" timestamp="1583569287290">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state width="1612" height="460" key="GridCell.Tab.1.center/0.23.2502.1417@0.23.2502.1417" timestamp="1584233611091" />
+    <state width="1612" height="460" key="GridCell.Tab.1.center/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824247" />
+    <state width="1612" height="460" key="GridCell.Tab.1.left" timestamp="1584561824247">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301305" />
-    <state width="1390" height="473" key="GridCell.Tab.1.left/0.23.2502.1417@0.23.2502.1417" timestamp="1583569287290" />
-    <state width="1390" height="473" key="GridCell.Tab.1.right" timestamp="1583569287290">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state width="1612" height="460" key="GridCell.Tab.1.left/0.23.2502.1417@0.23.2502.1417" timestamp="1584233611090" />
+    <state width="1612" height="460" key="GridCell.Tab.1.left/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824247" />
+    <state width="1612" height="460" key="GridCell.Tab.1.right" timestamp="1584561824247">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301306" />
-    <state width="1390" height="473" key="GridCell.Tab.1.right/0.23.2502.1417@0.23.2502.1417" timestamp="1583569287290" />
-    <state x="213" y="148" key="SettingsEditor" timestamp="1583639325900">
+    <state width="1612" height="460" key="GridCell.Tab.1.right/0.23.2502.1417@0.23.2502.1417" timestamp="1584233611091" />
+    <state width="1612" height="460" key="GridCell.Tab.1.right/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824247" />
+    <state x="213" y="148" key="SettingsEditor" timestamp="1584233366077">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state x="201" y="190" key="SettingsEditor/0.23.2480.1417@0.23.2480.1417" timestamp="1582186667690" />
-    <state x="213" y="148" key="SettingsEditor/0.23.2502.1417@0.23.2502.1417" timestamp="1583639325900" />
+    <state x="213" y="148" key="SettingsEditor/0.23.2502.1417@0.23.2502.1417" timestamp="1584233366077" />
     <state width="980" height="445" key="SwitcherDM" timestamp="1583914130725">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
     <state width="980" height="445" key="SwitcherDM/0.23.2502.1417@0.23.2502.1417" timestamp="1583914130725" />
-    <state x="1061" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583649405584">
+    <state x="1061" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584233209123">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
-    <state x="1061" y="256" key="Vcs.Push.Dialog.v2/0.23.2502.1417@0.23.2502.1417" timestamp="1583649405584" />
+    <state x="1061" y="256" key="Vcs.Push.Dialog.v2/0.23.2502.1417@0.23.2502.1417" timestamp="1584233209123" />
     <state x="1169" y="242" width="949" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583432760842">
       <screen x="0" y="23" width="2502" height="1417" />
     </state>
@@ -584,13 +597,13 @@
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_3_step03_PyTest_more_practice00_test_registration1.coverage" NAME="pytest for test_3_3_step03_PyTest_more_practice00.test_registration1 Coverage Results" MODIFIED="1583569135300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_4_step04_PyTest_YIELD_TestMainPage1_test_guest_should_see_basket_link_on_the_main_page.coverage" NAME="pytest for test_3_4_step04_PyTest_YIELD.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page Coverage Results" MODIFIED="1583641329816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$main.coverage" NAME="main Coverage Results" MODIFIED="1583012370491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_4_step02_PyTest_FIXTURES_02_TestMainPage1_test_guest_should_see_basket_link_on_the_main_page.coverage" NAME="pytest for test_3_4_step02_PyTest_FIXTURES_02.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page Coverage Results" MODIFIED="1583639835163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_4_step02_PyTest_FIXTURES_02_TestMainPage1_test_guest_should_see_basket_link_on_the_main_page.coverage" NAME="pytest for test_3_4_step02_PyTest_FIXTURES_02.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page Coverage Results" MODIFIED="1584234222203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$3_2_step13__by_OTHERS.coverage" NAME="3.2_step13_Задание_by_OTHERS Coverage Results" MODIFIED="1583104720728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step07.coverage" NAME="2.4_step07 Coverage Results" MODIFIED="1582744301282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_4_step02_PyTest_FIXTURES_01_TestMainPage2_test_guest_should_see_basket_link_on_the_main_page.coverage" NAME="pytest for test_3_4_step02_PyTest_FIXTURES_01.TestMainPage2.test_guest_should_see_basket_link_on_the_main_page Coverage Results" MODIFIED="1583636705162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_5_step07_PyTest_MARK_XFail___py.coverage" NAME="pytest in test_3_5_step07_PyTest_MARK_XFail_запуск тестов.py Coverage Results" MODIFIED="1583914031356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$test_3_2_step13_REDOagain_____unittest.coverage" NAME="test_3.2_step13_REDOagain_оформляем тесты в стиле unittest Coverage Results" MODIFIED="1583433590779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_4_step02_PyTest_FIXTURES_02_py.coverage" NAME="pytest in test_3_4_step02_PyTest_FIXTURES_02.py Coverage Results" MODIFIED="1583639948756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_4_step02_PyTest_FIXTURES_02_py.coverage" NAME="pytest in test_3_4_step02_PyTest_FIXTURES_02.py Coverage Results" MODIFIED="1584234787840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_2_step13_REDO_Practice_03_unittest_TestRegistragionPage.coverage" NAME="pytest for test_3_2_step13_REDO_Practice_03_unittest.TestRegistragionPage Coverage Results" MODIFIED="1583568671540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$3_2_step09________.coverage" NAME="3.2_step09_Задание: поиск подстроки_составные сообщения об ошибках Coverage Results" MODIFIED="1583010969006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_2_step13_REDO_Practice_03_unittest_py.coverage" NAME="pytest in test_3_2_step13_REDO_Practice_03_unittest.py Coverage Results" MODIFIED="1583568450702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -603,6 +616,7 @@
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_3_step09_PyTest_RAISES_py.coverage" NAME="pytest in test_3_3_step09_PyTest_RAISES.py Coverage Results" MODIFIED="1583571189081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_5_step04_PyTest_SKIP_py.coverage" NAME="pytest in test_3_5_step04_PyTest_MARK_SKIP.py Coverage Results" MODIFIED="1583648958178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$1_6_step10.coverage" NAME="1.6_step10 Coverage Results" MODIFIED="1582401080678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_6_step02_PyTest___01_py.coverage" NAME="pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py Coverage Results" MODIFIED="1584322409745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step06.coverage" NAME="2.4_step06 Coverage Results" MODIFIED="1582742549001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step03.coverage" NAME="2.4_step03 Coverage Results" MODIFIED="1582741295783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$1_6_step7.coverage" NAME="1.6_step7 Coverage Results" MODIFIED="1582397724270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -625,6 +639,7 @@
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_3_step09_PyTest_RAISES_test_exception2.coverage" NAME="pytest for test_3_3_step09_PyTest_RAISES.test_exception2 Coverage Results" MODIFIED="1583571114168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$1_6_step8.coverage" NAME="1.6_step8 Coverage Results" MODIFIED="1582397877848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_2_step13_REDO_Practice_03_unittest_TestRegistragionPage_test_registration_negative.coverage" NAME="pytest for test_3_2_step13_REDO_Practice_03_unittest.TestRegistragionPage.test_registration_negative Coverage Results" MODIFIED="1583568424488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_6_step02_PyTest___py.coverage" NAME="pytest in test_3_6_step02_PyTest_Параметризация_тестов.py Coverage Results" MODIFIED="1584235519061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$test.coverage" NAME="test Coverage Results" MODIFIED="1582187684212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_5_step05_PyTest_MARK_XFail_TestMainPage1.coverage" NAME="pytest for test_3_5_step05_PyTest_MARK_XFail.TestMainPage1 Coverage Results" MODIFIED="1583913361801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$1_6_step11_REVIEW_02.coverage" NAME="1.6_step11_REVIEW_02 Coverage Results" MODIFIED="1582923789721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
