@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a1d54ae-2d09-4c97-957e-849583319979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_3_6_step02_PyTest_Параметризация_тестов_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_3_6_step02_PyTest_Параметризация_тестов.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_3_6_step02_PyTest_Параметризация_тестов.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.1_step06_Метод get_attribut.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.1_step06_Метод get_attribut.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,56 +34,80 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py">
-    <configuration name="pytest for test_3_4_step02_PyTest_FIXTURES_02.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="2.4_step03_assert &quot;text&quot; in message" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Stepik Auto QA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_3_4_step02_PyTest_FIXTURES_02.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.4_step03_assert &quot;text&quot; in message.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_3_4_step02_PyTest_FIXTURES_02.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="2.4_step06_NoSuchElementException" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Stepik Auto QA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_3_4_step02_PyTest_FIXTURES_02.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.4_step06_NoSuchElementException.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="2.4_step07_WebDriverWait и expected_conditions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Stepik Auto QA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.4_step07_WebDriverWait и expected_conditions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -122,10 +145,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py" />
+        <item itemvalue="Python.2.4_step03_assert &quot;text&quot; in message" />
+        <item itemvalue="Python.2.4_step07_WebDriverWait и expected_conditions" />
+        <item itemvalue="Python.2.4_step06_NoSuchElementException" />
         <item itemvalue="Python tests.pytest in test_3_6_step02_PyTest_Параметризация_тестов.py" />
-        <item itemvalue="Python tests.pytest in test_3_4_step02_PyTest_FIXTURES_02.py" />
-        <item itemvalue="Python tests.pytest for test_3_4_step02_PyTest_FIXTURES_02.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page" />
-        <item itemvalue="Python tests.pytest in test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.py" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +171,17 @@
       <workItem from="1583429504235" duration="1301000" />
       <workItem from="1583431289476" duration="52267000" />
       <workItem from="1584779211142" duration="67000" />
+      <workItem from="1585176964056" duration="805000" />
+      <workItem from="1585177882303" duration="1698000" />
+      <workItem from="1585203868801" duration="695000" />
+      <workItem from="1585519160570" duration="1655000" />
+      <workItem from="1587345144439" duration="5866000" />
+      <workItem from="1589633903135" duration="208000" />
+      <workItem from="1591555881823" duration="408000" />
+      <workItem from="1597860618196" duration="1502000" />
+      <workItem from="1600450254669" duration="1994000" />
+      <workItem from="1600762540232" duration="35000" />
+      <workItem from="1617262069173" duration="2481000" />
     </task>
     <task id="LOCAL-00001" summary="modified text.txt file">
       <created>1583429580427</created>
@@ -402,152 +436,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="add 3.6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1431" y="491" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583104921515">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state x="1493" y="402" key="IDE.errors.dialog" timestamp="1600451460187">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1431" y="491" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2502.1417@0.23.2502.1417" timestamp="1583104921515" />
-    <state x="426" y="482" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582426811622">
-      <screen x="0" y="23" width="2502" height="1417" />
+    <state x="1493" y="402" key="IDE.errors.dialog/0.23.2560.1417@0.23.2560.1417" timestamp="1600451460187" />
+    <state x="1456" y="299" key="SettingsEditor" timestamp="1600451387090">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="426" y="482" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2502.1417@0.23.2502.1417" timestamp="1582426811622" />
-    <state x="1553" y="319" key="#pytest_for_test_3_4_step06_PyTest_AUTOSUE=True.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page" timestamp="1583642545696">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1553" y="319" key="#pytest_for_test_3_4_step06_PyTest_AUTOSUE=True.TestMainPage1.test_guest_should_see_basket_link_on_the_main_page/0.23.2502.1417@0.23.2502.1417" timestamp="1583642545696" />
-    <state x="1620" y="319" key="#pytest_for_test_3_4_step06_PyTest_AUTOSUE=True.TestMainPage1.test_guest_should_see_login_link" timestamp="1583642652020">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1620" y="319" key="#pytest_for_test_3_4_step06_PyTest_AUTOSUE=True.TestMainPage1.test_guest_should_see_login_link/0.23.2502.1417@0.23.2502.1417" timestamp="1583642652020" />
-    <state x="1368" y="335" key="#pytest_for_test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.TestBookPage.test_guest_can_see_book_price" timestamp="1583914028279">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1368" y="335" key="#pytest_for_test_3_5_step07_PyTest_MARK_XFail_запуск_тестов.TestBookPage.test_guest_can_see_book_price/0.23.2502.1417@0.23.2502.1417" timestamp="1583914028279" />
-    <state x="1506" y="348" key="#pytest_in_test_3_3_step03_PyTest.py" timestamp="1583188478525">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1506" y="348" key="#pytest_in_test_3_3_step03_PyTest.py/0.23.2502.1417@0.23.2502.1417" timestamp="1583188478525" />
-    <state x="1576" y="585" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583574261652">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1576" y="585" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2502.1417@0.23.2502.1417" timestamp="1583574261652" />
-    <state x="762" y="123" key="CommitChangelistDialog2" timestamp="1584233207032">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="762" y="123" key="CommitChangelistDialog2/0.23.2502.1417@0.23.2502.1417" timestamp="1584233207032" />
-    <state x="491" y="313" key="FileChooserDialogImpl" timestamp="1583105327585">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="487" y="313" key="FileChooserDialogImpl/0.23.2480.1417@0.23.2480.1417" timestamp="1582186659300" />
-    <state x="491" y="313" key="FileChooserDialogImpl/0.23.2502.1417@0.23.2502.1417" timestamp="1583105327585" />
-    <state width="1612" height="460" key="GridCell.Tab.0.bottom" timestamp="1584561824246">
-      <screen x="0" y="23" width="2506" height="1417" />
-    </state>
-    <state width="2518" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301354" />
-    <state width="1358" height="289" key="GridCell.Tab.0.bottom/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958018" />
-    <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458239" />
-    <state width="1170" height="693" key="GridCell.Tab.0.bottom/0.23.2502.1417@0.23.2502.1417" timestamp="1584244698566" />
-    <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583079" />
-    <state width="1612" height="460" key="GridCell.Tab.0.bottom/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824246" />
-    <state width="1410" height="693" key="GridCell.Tab.0.bottom/0.23.2507.1417@0.23.2507.1417" timestamp="1584322409779" />
-    <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2508.1417@0.23.2508.1417" timestamp="1582747665900" />
-    <state width="1410" height="693" key="GridCell.Tab.0.bottom/0.23.2510.1417@0.23.2510.1417" timestamp="1584322433379" />
-    <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833460" />
-    <state width="1072" height="367" key="GridCell.Tab.0.bottom/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879574" />
-    <state width="1612" height="460" key="GridCell.Tab.0.center" timestamp="1584561824246">
-      <screen x="0" y="23" width="2506" height="1417" />
-    </state>
-    <state width="2518" height="409" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
-    <state width="1358" height="289" key="GridCell.Tab.0.center/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958017" />
-    <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458238" />
-    <state width="1170" height="693" key="GridCell.Tab.0.center/0.23.2502.1417@0.23.2502.1417" timestamp="1584244698565" />
-    <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
-    <state width="1612" height="460" key="GridCell.Tab.0.center/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824246" />
-    <state width="1410" height="693" key="GridCell.Tab.0.center/0.23.2507.1417@0.23.2507.1417" timestamp="1584322409779" />
-    <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2508.1417@0.23.2508.1417" timestamp="1582747665900" />
-    <state width="1410" height="693" key="GridCell.Tab.0.center/0.23.2510.1417@0.23.2510.1417" timestamp="1584322433379" />
-    <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833460" />
-    <state width="1072" height="367" key="GridCell.Tab.0.center/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879573" />
-    <state width="1612" height="460" key="GridCell.Tab.0.left" timestamp="1584561824244">
-      <screen x="0" y="23" width="2506" height="1417" />
-    </state>
-    <state width="2518" height="409" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
-    <state width="1358" height="289" key="GridCell.Tab.0.left/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958017" />
-    <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458238" />
-    <state width="1170" height="693" key="GridCell.Tab.0.left/0.23.2502.1417@0.23.2502.1417" timestamp="1584244698565" />
-    <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
-    <state width="1612" height="460" key="GridCell.Tab.0.left/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824244" />
-    <state width="1410" height="693" key="GridCell.Tab.0.left/0.23.2507.1417@0.23.2507.1417" timestamp="1584322409778" />
-    <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2508.1417@0.23.2508.1417" timestamp="1582747665899" />
-    <state width="1410" height="693" key="GridCell.Tab.0.left/0.23.2510.1417@0.23.2510.1417" timestamp="1584322433378" />
-    <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833459" />
-    <state width="1072" height="367" key="GridCell.Tab.0.left/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879573" />
-    <state width="1612" height="460" key="GridCell.Tab.0.right" timestamp="1584561824246">
-      <screen x="0" y="23" width="2506" height="1417" />
-    </state>
-    <state width="2518" height="409" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301353" />
-    <state width="1358" height="289" key="GridCell.Tab.0.right/0.23.2480.1417@0.23.2480.1417" timestamp="1582186958018" />
-    <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2500.1417@0.23.2500.1417" timestamp="1582747458239" />
-    <state width="1170" height="693" key="GridCell.Tab.0.right/0.23.2502.1417@0.23.2502.1417" timestamp="1584244698565" />
-    <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2504.1417@0.23.2504.1417" timestamp="1582747583078" />
-    <state width="1612" height="460" key="GridCell.Tab.0.right/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824246" />
-    <state width="1410" height="693" key="GridCell.Tab.0.right/0.23.2507.1417@0.23.2507.1417" timestamp="1584322409779" />
-    <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2508.1417@0.23.2508.1417" timestamp="1582747665900" />
-    <state width="1410" height="693" key="GridCell.Tab.0.right/0.23.2510.1417@0.23.2510.1417" timestamp="1584322433379" />
-    <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2511.1417@0.23.2511.1417" timestamp="1582747833460" />
-    <state width="1072" height="367" key="GridCell.Tab.0.right/0.23.2512.1417@0.23.2512.1417" timestamp="1582747879573" />
-    <state width="1612" height="460" key="GridCell.Tab.1.bottom" timestamp="1584561824247">
-      <screen x="0" y="23" width="2506" height="1417" />
-    </state>
-    <state width="2518" height="409" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301306" />
-    <state width="1612" height="460" key="GridCell.Tab.1.bottom/0.23.2502.1417@0.23.2502.1417" timestamp="1584233611091" />
-    <state width="1612" height="460" key="GridCell.Tab.1.bottom/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824247" />
-    <state width="1612" height="460" key="GridCell.Tab.1.center" timestamp="1584561824247">
-      <screen x="0" y="23" width="2506" height="1417" />
-    </state>
-    <state width="2518" height="409" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301305" />
-    <state width="1612" height="460" key="GridCell.Tab.1.center/0.23.2502.1417@0.23.2502.1417" timestamp="1584233611091" />
-    <state width="1612" height="460" key="GridCell.Tab.1.center/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824247" />
-    <state width="1612" height="460" key="GridCell.Tab.1.left" timestamp="1584561824247">
-      <screen x="0" y="23" width="2506" height="1417" />
-    </state>
-    <state width="2518" height="409" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301305" />
-    <state width="1612" height="460" key="GridCell.Tab.1.left/0.23.2502.1417@0.23.2502.1417" timestamp="1584233611090" />
-    <state width="1612" height="460" key="GridCell.Tab.1.left/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824247" />
-    <state width="1612" height="460" key="GridCell.Tab.1.right" timestamp="1584561824247">
-      <screen x="0" y="23" width="2506" height="1417" />
-    </state>
-    <state width="2518" height="409" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582744301306" />
-    <state width="1612" height="460" key="GridCell.Tab.1.right/0.23.2502.1417@0.23.2502.1417" timestamp="1584233611091" />
-    <state width="1612" height="460" key="GridCell.Tab.1.right/0.23.2506.1417@0.23.2506.1417" timestamp="1584561824247" />
-    <state x="213" y="148" key="SettingsEditor" timestamp="1584233366077">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="201" y="190" key="SettingsEditor/0.23.2480.1417@0.23.2480.1417" timestamp="1582186667690" />
-    <state x="213" y="148" key="SettingsEditor/0.23.2502.1417@0.23.2502.1417" timestamp="1584233366077" />
-    <state width="980" height="445" key="SwitcherDM" timestamp="1583914130725">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state width="980" height="445" key="SwitcherDM/0.23.2502.1417@0.23.2502.1417" timestamp="1583914130725" />
-    <state x="1061" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584233209123">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1061" y="256" key="Vcs.Push.Dialog.v2/0.23.2502.1417@0.23.2502.1417" timestamp="1584233209123" />
-    <state x="1169" y="242" width="949" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583432760842">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1169" y="242" width="949" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2502.1417@0.23.2502.1417" timestamp="1583432760842" />
-    <state x="917" y="563" key="com.intellij.ide.util.TipDialog" timestamp="1582185752401">
-      <screen x="0" y="23" width="2480" height="1417" />
-    </state>
-    <state x="917" y="563" key="com.intellij.ide.util.TipDialog/0.23.2480.1417@0.23.2480.1417" timestamp="1582185752401" />
-    <state x="1583" y="376" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583188369917">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1583" y="376" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.2502.1417@0.23.2502.1417" timestamp="1583188369917" />
-    <state x="1241" y="458" key="git4idea.merge.GitPullDialog" timestamp="1583432684063">
-      <screen x="0" y="23" width="2502" height="1417" />
-    </state>
-    <state x="1241" y="458" key="git4idea.merge.GitPullDialog/0.23.2502.1417@0.23.2502.1417" timestamp="1583432684063" />
+    <state x="1456" y="299" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1600451387090" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,12 +497,14 @@
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$3_2_step13__by_OTHERS.coverage" NAME="3.2_step13_Задание_by_OTHERS Coverage Results" MODIFIED="1583104720728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step07.coverage" NAME="2.4_step07 Coverage Results" MODIFIED="1582744301282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_4_step02_PyTest_FIXTURES_01_TestMainPage2_test_guest_should_see_basket_link_on_the_main_page.coverage" NAME="pytest for test_3_4_step02_PyTest_FIXTURES_01.TestMainPage2.test_guest_should_see_basket_link_on_the_main_page Coverage Results" MODIFIED="1583636705162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step06_NoSuchElementException.coverage" NAME="2.4_step06_NoSuchElementException Coverage Results" MODIFIED="1585519617176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_5_step07_PyTest_MARK_XFail___py.coverage" NAME="pytest in test_3_5_step07_PyTest_MARK_XFail_запуск тестов.py Coverage Results" MODIFIED="1583914031356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$test_3_2_step13_REDOagain_____unittest.coverage" NAME="test_3.2_step13_REDOagain_оформляем тесты в стиле unittest Coverage Results" MODIFIED="1583433590779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_4_step02_PyTest_FIXTURES_02_py.coverage" NAME="pytest in test_3_4_step02_PyTest_FIXTURES_02.py Coverage Results" MODIFIED="1584234787840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_2_step13_REDO_Practice_03_unittest_TestRegistragionPage.coverage" NAME="pytest for test_3_2_step13_REDO_Practice_03_unittest.TestRegistragionPage Coverage Results" MODIFIED="1583568671540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$3_2_step09________.coverage" NAME="3.2_step09_Задание: поиск подстроки_составные сообщения об ошибках Coverage Results" MODIFIED="1583010969006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_2_step13_REDO_Practice_03_unittest_py.coverage" NAME="pytest in test_3_2_step13_REDO_Practice_03_unittest.py Coverage Results" MODIFIED="1583568450702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step07_WebDriverWait__expected_conditions.coverage" NAME="2.4_step07_WebDriverWait и expected_conditions Coverage Results" MODIFIED="1585519671481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_3_2_step13__by_OTHERS_py.coverage" NAME="pytest in 3.2_step13_Задание_by_OTHERS.py Coverage Results" MODIFIED="1583103895550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_1_step06.coverage" NAME="2.1_step06 Coverage Results" MODIFIED="1582746331625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$3_2_step06___.coverage" NAME="3.2_step06_Проверка ожидаемого результата Coverage Results" MODIFIED="1583001465042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -616,7 +514,7 @@
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_3_step09_PyTest_RAISES_py.coverage" NAME="pytest in test_3_3_step09_PyTest_RAISES.py Coverage Results" MODIFIED="1583571189081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_5_step04_PyTest_SKIP_py.coverage" NAME="pytest in test_3_5_step04_PyTest_MARK_SKIP.py Coverage Results" MODIFIED="1583648958178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$1_6_step10.coverage" NAME="1.6_step10 Coverage Results" MODIFIED="1582401080678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_6_step02_PyTest___01_py.coverage" NAME="pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py Coverage Results" MODIFIED="1584322409745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_in_test_3_6_step02_PyTest___01_py.coverage" NAME="pytest in test_3_6_step02_PyTest_Параметризация_тестов_01.py Coverage Results" MODIFIED="1587436330264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step06.coverage" NAME="2.4_step06 Coverage Results" MODIFIED="1582742549001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step03.coverage" NAME="2.4_step03 Coverage Results" MODIFIED="1582741295783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$1_6_step7.coverage" NAME="1.6_step7 Coverage Results" MODIFIED="1582397724270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -643,6 +541,7 @@
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$test.coverage" NAME="test Coverage Results" MODIFIED="1582187684212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_5_step05_PyTest_MARK_XFail_TestMainPage1.coverage" NAME="pytest for test_3_5_step05_PyTest_MARK_XFail.TestMainPage1 Coverage Results" MODIFIED="1583913361801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$1_6_step11_REVIEW_02.coverage" NAME="1.6_step11_REVIEW_02 Coverage Results" MODIFIED="1582923789721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepik_Auto_QA$2_4_step03_assert__text__in_message.coverage" NAME="2.4_step03_assert &quot;text&quot; in message Coverage Results" MODIFIED="1587345210352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$3_2_step07____.coverage" NAME="3.2_step07_Составные сообщения об ошибках Coverage Results" MODIFIED="1583002261557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_3_step03_PyTest_more_practice00_TestForm.coverage" NAME="pytest for test_3_3_step03_PyTest_more_practice00.TestForm Coverage Results" MODIFIED="1583569287274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepik_Auto_QA$pytest_for_test_3_4_step02_PyTest_FIXTURES_01_TestMainPage2.coverage" NAME="pytest for test_3_4_step02_PyTest_FIXTURES_01.TestMainPage2 Coverage Results" MODIFIED="1583636496835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
